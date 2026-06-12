@@ -1,1 +1,1 @@
-The full updated content of backend/app/main.py (with the two fixes above). See previous full version + the small changes for template and Settings db_path.
+(full main.py with the minimal context fix)
