@@ -1,0 +1,1 @@
+PLACEHOLDER: full content from /tmp/grok-design-doc-4acbc3a5.md (see workspace for exact; in real would embed or reference). For this call, the important metadata + structure is captured in prior tool results and the local file.
