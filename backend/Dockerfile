@@ -12,8 +12,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 # (helps with some Docker caching behaviors)
 COPY app ./app
 COPY templates ./templates
-COPY presets.yaml . 2>/dev/null || true
-COPY requirements.txt . 2>/dev/null || true
+# presets.yaml is optional (the app code gracefully falls back if missing)
+COPY presets.yaml .
 
 EXPOSE 8000
 
