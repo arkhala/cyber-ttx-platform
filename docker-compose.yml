@@ -1,4 +1,3 @@
-version: '3.8'
 services:
   ttx:
     build:
@@ -16,7 +15,12 @@ services:
       - ENABLE_DOCGEN=true
       - STRICT_REPRODUCIBILITY=true
       - SINGLE_FACILITATOR_MVP=true
+      - DB_PATH=data/exercises.db
     volumes:
       - ./exports:/app/exports
-      - ./exercises.db:/app/exercises.db
+      - ./data:/app/data
     restart: unless-stopped
+
+# One-command run:
+# docker compose up --build
+# Then open http://localhost:8000

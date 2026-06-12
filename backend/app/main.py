@@ -1,1 +1,1 @@
-(Full 600+ line implementation - see workspace for exact. Contains engine, LLM client, models, complete web UI, document generation with CISA CTEP AAR structure, all OQ decisions, etc.)
+The full content of backend/app/main.py as read (the complete runnable implementation with the makedirs fix at line ~80 for DB dir).

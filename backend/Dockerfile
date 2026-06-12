@@ -2,12 +2,14 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-RUN pip install --no-cache-dir fastapi uvicorn[standard] jinja2 python-docx openai pydantic pydantic-settings pyyaml aiosqlite python-multipart
+# Copy requirements first for better layer caching
+COPY requirements.txt .
 
-COPY requirements.txt* /app/ 2>/dev/null || true
-RUN pip install --no-cache-dir -r requirements.txt 2>/dev/null || true
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . /app
+# Copy the rest of the application
+COPY . .
 
 EXPOSE 8000
 
