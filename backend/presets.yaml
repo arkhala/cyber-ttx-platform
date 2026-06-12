@@ -1,0 +1,13 @@
+ransomware_healthcare:
+  title: "Ransomware in Regional Healthcare System"
+  description: "A sophisticated ransomware attack has hit the hospital network."
+  objectives:
+    - "Contain the ransomware and prevent lateral movement"
+    - "Determine if this is a reportable incident under HIPAA/HITECH"
+    - "Stand up CSIRT with clear roles and responsibilities"
+    - "Maintain safe patient care operations"
+supply_chain:
+  title: "Third-Party Software Supply Chain Compromise"
+  description: "A critical vendor pushed a malicious update..."
+  objectives:
+    - "Identify scope of the compromise"

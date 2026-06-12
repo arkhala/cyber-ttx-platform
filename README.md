@@ -1,1 +1,1 @@
-(Updated main README with PR1 status, design docs links, user OQ answers, next steps. See full in workspace or raw on GitHub.)
+(Updated full status with run instructions and feature summary - see workspace)

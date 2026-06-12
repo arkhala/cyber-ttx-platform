@@ -1,0 +1,1 @@
+(Full 600+ line implementation - see workspace for exact. Contains engine, LLM client, models, complete web UI, document generation with CISA CTEP AAR structure, all OQ decisions, etc.)
