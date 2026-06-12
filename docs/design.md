@@ -1,9 +1,17 @@
-# Design Document (Canonical)
+# Cyber TTX Platform Design (Approved)
 
-See `design-cyber-ttx-platform.md` (full approved design after design skill loop with 0 open issues).
+Canonical: design-cyber-ttx-platform.md
+Review: design-review.md (0 issues)
+Summary: design-summary.md
 
-Generated: 2026-06-12
-Review rounds: full write-review-fix until 0 issues.
-Repo bootstrap via grok_com_github MCP completed prior to design.
+**Status**: Design approved after full /design skill loop (writer + reviewer personas until 0 open issues of any severity). Bootstrap via grok_com_github MCP already complete.
 
-Next: execute the PR Plan (11 core + optional) via harness execute-plan / worktrees / TDD / verification.
+**User decisions on Open Questions incorporated**:
+- OQ1: Single facilitator + observers (MVP)
+- OQ2: Recent 40 + periodic SUMMARY (MVP baseline)
+- OQ3: User-editable + importable YAML/JSON
+- OQ4: Configurable fidelity knob (bias slider)
+- OQ5: Anonymous + optional shared passphrase
+- OQ7: Strict reproducibility (temp=0 + seeds)
+
+Next: execute the PR Plan using harness (worktrees, TDD, verification, MCP for PRs).
